@@ -45,6 +45,9 @@ Registradores
 #define PIN_CLK 22
 #define BLINK_GPIO 2
 #define I2C_ADDRESS 0x68 // I2C address of MPU6050 without AD0
+#define LED_GPIO    15  //Led_uso_geral D15
+#define ECHO_GPIO   26  //S1 D26
+#define TRIGG_GPIO  25  //S2 D25
 
 
 #define MPU6050_ACCEL_XOUT_H 0x3B
